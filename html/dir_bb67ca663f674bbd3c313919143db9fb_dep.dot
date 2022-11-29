@@ -1,0 +1,14 @@
+digraph "C:/shortPath/28_11_HGE/HorizonEngine2D/HorizonEngine/vendor/imnodes"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_f43a3dfde1b62eae6c373e47e837b703 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="vendor", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_f43a3dfde1b62eae6c373e47e837b703.html",tooltip=""]
+  dir_bb67ca663f674bbd3c313919143db9fb [label="imnodes", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_bb67ca663f674bbd3c313919143db9fb.html",tooltip=""];
+  }
+  dir_07f21f2928898664b83e945f6752cc65 [label="src", fillcolor="#edf0f7", color="red", style="filled,dashed", URL="dir_07f21f2928898664b83e945f6752cc65.html",tooltip=""];
+  dir_bb67ca663f674bbd3c313919143db9fb->dir_07f21f2928898664b83e945f6752cc65 [headlabel="1", labeldistance=1.5 headhref="dir_000017_000035.html" color="steelblue1" fontcolor="steelblue1"];
+}

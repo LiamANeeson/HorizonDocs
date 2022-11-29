@@ -1,0 +1,10 @@
+digraph "C:/shortPath/28_11_HGE/HorizonEngine2D/HorizonEngine/Platform/OpenGL/GLBuffer.h"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="C:/shortPath/28_11\l_HGE/HorizonEngine2D\l/HorizonEngine/Platform\l/OpenGL/GLBuffer.h",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="steelblue1",style="solid"];
+  Node2 [label="HorizonEngine/Renderer\l/Buffer.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$_buffer_8h.html",tooltip=" "];
+}

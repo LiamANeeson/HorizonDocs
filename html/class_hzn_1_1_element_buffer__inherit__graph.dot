@@ -1,0 +1,10 @@
+digraph "Hzn::ElementBuffer"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="Hzn::ElementBuffer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="An Element Buffer represents the order in which, the vertices from a Vertex Buffer should be used to ..."];
+  Node1 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="Hzn::GLElementBuffer",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_hzn_1_1_g_l_element_buffer.html",tooltip=" "];
+}

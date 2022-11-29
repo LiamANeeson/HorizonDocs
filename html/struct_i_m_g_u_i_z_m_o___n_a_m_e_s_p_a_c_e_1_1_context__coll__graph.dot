@@ -1,0 +1,15 @@
+digraph "IMGUIZMO_NAMESPACE::Context"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="IMGUIZMO_NAMESPACE\l::Context",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mStyle" ];
+  Node2 [label="IMGUIZMO_NAMESPACE\l::Style",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$struct_i_m_g_u_i_z_m_o___n_a_m_e_s_p_a_c_e_1_1_style.html",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mBoundsMatrix\nmMVP\nmMVPLocal\nmModel\nmModelInverse\nmModelLocal\nmModelSource\nmModelSourceInverse\nmProjectionMat\nmViewMat\n..." ];
+  Node3 [label="IMGUIZMO_NAMESPACE\l::matrix_t",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$struct_i_m_g_u_i_z_m_o___n_a_m_e_s_p_a_c_e_1_1matrix__t.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",style="dashed",label=" component\ndir\nposition\nright\nup" ];
+  Node4 [label="IMGUIZMO_NAMESPACE\l::vec_t",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$struct_i_m_g_u_i_z_m_o___n_a_m_e_s_p_a_c_e_1_1vec__t.html",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" mBoundsAnchor\nmBoundsLocalPivot\nmBoundsPivot\nmBoundsPlan\nmCameraDir\nmCameraEye\nmCameraRight\nmCameraUp\nmMatrixOrigin\nmModelScaleOrigin\n..." ];
+}
