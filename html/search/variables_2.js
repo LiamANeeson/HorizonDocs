@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['canvasdrawlist_0',['CanvasDrawList',['../struct_im_nodes_context.html#a5930734207041e791d4a906be8e647f7',1,'ImNodesContext']]],
+  ['canvasoriginscreenspace_1',['CanvasOriginScreenSpace',['../struct_im_nodes_context.html#ac8d81c177c6f3ec7d5611c7e6ddfa674',1,'ImNodesContext']]],
+  ['canvasrectscreenspace_2',['CanvasRectScreenSpace',['../struct_im_nodes_context.html#a17a8307247643883e8ca67b3edd35248',1,'ImNodesContext']]],
+  ['cellsize_3',['cellSize',['../struct_hzn_1_1_sprite_sheet_identifier.html#a44c6b758cfe37706b162febe5a40c7ed',1,'Hzn::SpriteSheetIdentifier']]],
+  ['clickinteraction_4',['ClickInteraction',['../struct_im_nodes_editor_context.html#ade500bc0b2efe2f9ef8468029e941c0c',1,'ImNodesEditorContext']]],
+  ['color_5',['color',['../struct_hzn_1_1_vertex.html#a6498bf57aaa104faa7f3dc15e93633f2',1,'Hzn::Vertex']]],
+  ['color_6',['Color',['../struct_im_nodes_col_element.html#afdc0e687dd779c219f652267e718eb93',1,'ImNodesColElement']]],
+  ['colormodifierstack_7',['ColorModifierStack',['../struct_im_nodes_context.html#a544e6347584bb107b9475471702e7865',1,'ImNodesContext']]],
+  ['colors_8',['Colors',['../struct_im_nodes_style.html#a1d922264b43b6ce8efc8d925e56e0d20',1,'ImNodesStyle']]],
+  ['colorstyle_9',['ColorStyle',['../struct_im_node_data.html#abcfe699067a0a85bbde8407b42d6ba3a',1,'ImNodeData::ColorStyle()'],['../struct_im_pin_data.html#aef378752e17b1f0165e3e669b97a7e0e',1,'ImPinData::ColorStyle()'],['../struct_im_link_data.html#af8850456a48837949119cb8a890d6ceb',1,'ImLinkData::ColorStyle()']]],
+  ['coreassembly_10',['coreAssembly',['../struct_hzn_1_1_script_data.html#ad174feda46fbac344841e0ab1465f673',1,'Hzn::ScriptData']]],
+  ['coreassemblyimage_11',['coreAssemblyImage',['../struct_hzn_1_1_script_data.html#ae958fd81aa057bf0002851dc28b84322',1,'Hzn::ScriptData']]],
+  ['cornerrounding_12',['CornerRounding',['../struct_im_node_data.html#af6ec03de4e0f75665e92f52f8330ff28',1,'ImNodeData']]],
+  ['count_13',['Count',['../struct_i_m_n_o_d_e_s___n_a_m_e_s_p_a_c_e_1_1_im_nodes_style_var_info.html#aeba754d7f52540d429ef8329efe50fb1',1,'IMNODES_NAMESPACE::ImNodesStyleVarInfo']]],
+  ['curidx_14',['curidx',['../struct_hzn_1_1_render_data.html#a6e526d91dfd711e47527aecd6fd57e44',1,'Hzn::RenderData']]],
+  ['currentattributeflags_15',['CurrentAttributeFlags',['../struct_im_nodes_context.html#ac04e7668dcb40b84c42e54b0520d4f26',1,'ImNodesContext']]],
+  ['currentattributeid_16',['CurrentAttributeId',['../struct_im_nodes_context.html#ae430b08a694f32a11d284908471f4a70',1,'ImNodesContext']]],
+  ['currentnodeidx_17',['CurrentNodeIdx',['../struct_im_nodes_context.html#a0f0a5ad0b6290661e54453859532e7b1',1,'ImNodesContext']]],
+  ['currentpinidx_18',['CurrentPinIdx',['../struct_im_nodes_context.html#a96ce62d7477dc0c575a6fb722d9917bf',1,'ImNodesContext']]],
+  ['currentscope_19',['CurrentScope',['../struct_im_nodes_context.html#a47d51afb30276b57fffbb938863fdd10',1,'ImNodesContext']]]
+];
