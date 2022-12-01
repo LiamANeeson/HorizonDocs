@@ -1,9 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
- // LATEX_PDF_SIZE
-  bgcolor="transparent";
-  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
-  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
-  rankdir="LR";
-  Node0 [label="IMNODES_NAMESPACE::\lanonymous_namespace\l\{imnodes.cpp\}::CubicBezier",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$struct_i_m_n_o_d_e_s___n_a_m_e_s_p_a_c_e_1_1anonymous__namespace_02imnodes_8cpp_03_1_1_cubic_bezier.html",tooltip=" "];
-}
