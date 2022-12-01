@@ -200,4 +200,6 @@ var menudata={children:[
 {text:"e",url:"globals_defs.html#index_e"},
 {text:"h",url:"globals_defs.html#index_h"},
 {text:"i",url:"globals_defs.html#index_i"},
-{text:"m",url:"globals_defs.html#index_m"}]}]}]}]}
+{text:"m",url:"globals_defs.html#index_m"}]}]}]},
+{text:"Return to Horizon2D",url:"https://horizoneng.herokuapp.com/docs"}
+]}
