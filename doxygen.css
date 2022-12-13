@@ -14,19 +14,19 @@ html {
 --index-separator-color: #A0A0A0;
 
 /* header */
---header-background-color: #F9FAFC;
---header-separator-color: #C4CFE5;
+--header-background-color: white !important;
+--header-separator-color: white !important;
 --header-gradient-image: url('nav_h.png');
 --group-header-separator-color: #879ECB;
 --group-header-color: #354C7B;
 --inherit-header-color: gray;
 
---footer-foreground-color: #2A3D61;
+--footer-foreground-color: #2A3D61 !important;
 --footer-logo-width: 104px;
 --citation-label-color: #334975;
 --glow-color: cyan;
 
---title-background-color: white;
+--title-background-color: #023047 !important;
 --title-separator-color: #5373B4;
 --directory-separator-color: #9CAFD4;
 --separator-color: #4A6AAA;
@@ -70,10 +70,10 @@ html {
 --label-foreground-color: white;
 
 /** navigation bar/tree/menu */
---nav-background-color: #F9FAFC;
+--nav-background-color: red !important;
 --nav-foreground-color: #364D7C;
---nav-gradient-image: url('tab_b.png');
---nav-gradient-hover-image: url('tab_h.png');
+/* --nav-gradient-image: url('tab_b.png'); */
+/* --nav-gradient-hover-image: url('tab_h.png'); */
 --nav-gradient-active-image: url('tab_a.png');
 --nav-gradient-active-image-parent: url("../tab_a.png");
 --nav-separator-image: url('tab_s.png');
@@ -83,18 +83,17 @@ html {
 --nav-font-size-level1: 13px;
 --nav-font-size-level2: 10px;
 --nav-font-size-level3: 9px;
---nav-text-normal-color: #283A5D;
+--nav-text-normal-color: white;
 --nav-text-hover-color: white;
 --nav-text-active-color: white;
---nav-text-normal-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
 --nav-text-hover-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
 --nav-text-active-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
 --nav-menu-button-color: #364D7C;
 --nav-menu-background-color: white;
 --nav-menu-foreground-color: #555555;
 --nav-menu-toggle-color: rgba(255, 255, 255, 0.5);
---nav-arrow-color: #9CAFD4;
---nav-arrow-selected-color: #9CAFD4;
+/* --nav-arrow-color: #9CAFD4;
+--nav-arrow-selected-color: #9CAFD4; */
 
 /* table of contents */
 --toc-background-color: #F4F6FA;
@@ -166,7 +165,7 @@ html {
     color-scheme: dark;
 
 /* page base colors */
---page-background-color: black;
+--page-background-color: white;
 --page-foreground-color: #C9D1D9;
 --page-link-color: #90A5CE;
 --page-visited-link-color: #A3B4D7;
@@ -190,10 +189,10 @@ html {
 --citation-label-color: #90A5CE;
 --glow-color: cyan;
 
---title-background-color: #090D16;
---title-separator-color: #354C79;
---directory-separator-color: #283A5D;
---separator-color: #283A5D;
+--title-background-color: #023047;
+--title-separator-color: #023047;
+--directory-separator-color: #023047;
+--separator-color: #023047;
 
 --blockquote-background-color: #101826;
 --blockquote-border-color: #283A5D;
@@ -218,7 +217,7 @@ html {
 --memdef-proto-background-color: #19243A;
 --memdef-proto-text-color: #9DB0D4;
 --memdef-proto-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.9);
---memdef-doc-background-color: black;
+--memdef-doc-background-color: red;
 --memdef-param-name-color: #D28757;
 --memdef-template-color: #7C95C6;
 
@@ -234,7 +233,7 @@ html {
 --label-foreground-color: #CCCCCC;
 
 /** navigation bar/tree/menu */
---nav-background-color: #101826;
+--nav-background-color: #101826 !important;
 --nav-foreground-color: #364D7C;
 --nav-gradient-image: url('tab_bd.png');
 --nav-gradient-hover-image: url('tab_hd.png');
@@ -254,7 +253,7 @@ html {
 --nav-text-hover-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
 --nav-text-active-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
 --nav-menu-button-color: #B6C4DF;
---nav-menu-background-color: #05070C;
+--nav-menu-background-color: #023047;
 --nav-menu-foreground-color: #BBBBBB;
 --nav-menu-toggle-color: rgba(255, 255, 255, 0.2);
 --nav-arrow-color: #334975;
@@ -353,13 +352,14 @@ body, table, div, p, dl {
 /* @group Heading Levels */
 
 .title {
-	font-weight: 400;
-	font-size: 14px;
+	font-weight: 800 !important;
+	font-size: 2rem !important;
 	font-family: var(--font-family-normal);
 	line-height: 28px;
 	font-size: 150%;
 	font-weight: bold;
 	margin: 10px 2px;
+  color: black !important;
 }
 
 h1.groupheader {
@@ -531,8 +531,6 @@ dt.alphachar{
 		column-count:3
 	}
 }
-
-
 /* @group Link Styling */
 
 a {
@@ -564,32 +562,6 @@ a.codeRef, a.codeRef:visited, a.lineRef, a.lineRef:visited {
 	color: var(--code-external-link-color);
 }
 
-a.code.hl_class { /* style for links to class names in code snippets */ }
-a.code.hl_struct { /* style for links to struct names in code snippets */ }
-a.code.hl_union { /* style for links to union names in code snippets */ }
-a.code.hl_interface { /* style for links to interface names in code snippets */ }
-a.code.hl_protocol { /* style for links to protocol names in code snippets */ }
-a.code.hl_category { /* style for links to category names in code snippets */ }
-a.code.hl_exception { /* style for links to exception names in code snippets */ }
-a.code.hl_service { /* style for links to service names in code snippets */ }
-a.code.hl_singleton { /* style for links to singleton names in code snippets */ }
-a.code.hl_concept { /* style for links to concept names in code snippets */ }
-a.code.hl_namespace { /* style for links to namespace names in code snippets */ }
-a.code.hl_package { /* style for links to package names in code snippets */ }
-a.code.hl_define { /* style for links to macro names in code snippets */ }
-a.code.hl_function { /* style for links to function names in code snippets */ }
-a.code.hl_variable { /* style for links to variable names in code snippets */ }
-a.code.hl_typedef { /* style for links to typedef names in code snippets */ }
-a.code.hl_enumvalue { /* style for links to enum value names in code snippets */ }
-a.code.hl_enumeration { /* style for links to enumeration names in code snippets */ }
-a.code.hl_signal { /* style for links to Qt signal names in code snippets */ }
-a.code.hl_slot { /* style for links to Qt slot names in code snippets */ }
-a.code.hl_friend { /* style for links to friend names in code snippets */ }
-a.code.hl_dcop { /* style for links to KDE3 DCOP names in code snippets */ }
-a.code.hl_property { /* style for links to property names in code snippets */ }
-a.code.hl_event { /* style for links to event names in code snippets */ }
-a.code.hl_sequence { /* style for links to sequence names in code snippets */ }
-a.code.hl_dictionary { /* style for links to dictionary names in code snippets */ }
 
 /* @end */
 
@@ -640,7 +612,7 @@ div.fragment {
 
 div.line {
 	font-family: var(--font-family-monospace);
-        font-size: 13px;
+  font-size: 13px;
 	min-height: 13px;
 	line-height: 1.0;
 	text-wrap: unrestricted;
@@ -1363,7 +1335,8 @@ table.fieldtable {
 .navpath ul
 {
 	font-size: 11px;
-	background-image: var(--nav-gradient-image);
+  background-color: #023047;
+	/* background-image: var(--nav-gradient-image); */
 	background-repeat:repeat-x;
 	background-position: 0 -5px;
 	height:30px;
@@ -1459,8 +1432,6 @@ div.ingroups a
 
 div.header
 {
-        background-image: var(--header-gradient-image);
-        background-repeat:repeat-x;
 	background-color: var(--header-background-color);
 	margin:  0px;
 	border-bottom: 1px solid var(--header-separator-color);
@@ -1569,6 +1540,8 @@ dl.section dd {
 	font-family: var(--font-family-title);
 	margin: 0px;
 	padding: 2px 0px;
+  padding-left: 50px;
+  color: white;
 }
 
 #projectbrief
